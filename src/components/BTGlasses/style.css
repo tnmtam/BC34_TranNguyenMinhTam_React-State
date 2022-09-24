@@ -1,0 +1,89 @@
+.header {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.header h5 {
+  margin: 0;
+}
+
+.body {
+  padding-top: 80px;
+  background: url(../../../public/glassesImage/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body .container .row .vglasses__ {
+  width: 440px;
+  margin-top: 30px;
+}
+
+.vglasses__card {
+  position: relative;
+  overflow: hidden;
+  background-image: url("../../../public/glassesImage/model.jpg");
+  /* background-position: center bottom; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  height: 600px;
+}
+
+.vglasses__model img {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 238px;
+  height: 85px;
+  /* transform: rotate(-6deg); */
+  opacity: 0.9;
+}
+
+.vglasses__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(247, 145, 11, 0.3);
+  width: 100%;
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+  /* display: none; */
+}
+
+.vglasses__info h5 {
+  color: blue;
+  font-size: 20px;
+}
+
+.vglasses__info span {
+  padding: 5px 10px;
+  background: red;
+  border-radius: 5px;
+}
+
+.body::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.vglasses {
+  z-index: 1;
+}
